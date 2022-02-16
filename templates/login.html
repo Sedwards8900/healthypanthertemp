@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Healthy Panther</title>
+  <link rel="stylesheet" href={{ url_for('static', filename='style.css' ) }}>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>HEALTHY PANTHER</h1>
+  </div>
+
+  <div class="container">
+    <p>Login</p>
+    <form class="log_in" method="POST" action="/account">
+      <input type="text" name="username" placeholder="username">
+      <input type="text" name="password" placeholder="password">
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+
+</html>

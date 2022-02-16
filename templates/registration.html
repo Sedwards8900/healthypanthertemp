@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Healthy Panther</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>HEALTHY PANTHER</h1>
+  </div>
+
+  <div class="container">
+    <form class="sign_up" method="POST" action="/new_account">
+      <input type="text" name="username" placeholder="Create your username">
+      <input type="text" name="password" placeholder="Enter a password">
+      <p>By completing the registration you agree to the <a
+          href="https://starwarsintrocreator.kassellabs.io/#!/DMlxnhVRpa321_xnfeQ7" style="color:dodgerblue">Privacy
+          Terms</a>.</p>
+      <input type="submit" value="Create">
+    </form>
+  </div>
+</body>
+
+</html>
